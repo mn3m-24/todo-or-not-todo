@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb);
+    font-family: "JetBrains Mono", sans-serif;
+    min-height: 100vh;
+}
+header {
+    font-size: 1.5rem;
+}
+
+header,
+ form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+}
+
+form button {
+    color: #ff9a9e;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    
+    color: white;
+    background-color: #ff9a9e;
+}
