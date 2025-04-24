@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
 }
 header {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 header,
@@ -39,4 +39,49 @@ form button:hover {
     
     color: white;
     background-color: #ff9a9e;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+ .todo li {
+    flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.trash-btn{
+    background-color: #ff6b6b;
+}
+
+.complete-btn {
+    background-color: #77dd77;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
 }
